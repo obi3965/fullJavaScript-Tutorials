@@ -1,0 +1,8 @@
+ primative data types in javascript
+
+1- NUMERIC : - floating numbers, for decimals and integer
+2- STRING : - sequence of charactors, used for text
+3- BOOLEAN: -logical data type that can only be true or false
+4- UNDEFINED : - data type of a variable that dose not have a value
+5- NULL : - also means non-existent or empty
+
