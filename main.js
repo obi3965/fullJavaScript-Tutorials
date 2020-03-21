@@ -12,23 +12,27 @@
 
 
 
-//VARIABLE MUTATION AND TYPE COERCION
-let firstName = 'obi';
-let age = 30;
+// //VARIABLE MUTATION AND TYPE COERCION
+// let firstName = 'obi';
+// let age = 30;
 
-console.log(`${firstName}` + ' ' + `${age}`)
-
-
-let job, ismarried;
-job = 'teacher';
-ismarried = false;
-console.log(`${firstName}` + ' is a ' + `${age}` + ' years old ' + `${job}` + ' is he married ' + `${ismarried}`)
+// console.log(`${firstName}` + ' ' + `${age}`)
 
 
-//VARIABLE MUTATION
-age = 'twenty four';
-job = 'cleaner'
-alert(`${firstName}` + ' is a ' + `${age}` + ' years old ' + `${job}` + ' is he married ' + `${ismarried}`);
+// let job, ismarried;
+// job = 'teacher';
+// ismarried = false;
+// console.log(`${firstName}` + ' is a ' + `${age}` + ' years old ' + `${job}` + ' is he married ' + `${ismarried}`)
 
-let lastName = prompt('what is your last name')
-console.log(firstName + ' ' + lastName)
+
+// //VARIABLE MUTATION
+// age = 'twenty four';
+// job = 'cleaner'
+// alert(`${firstName}` + ' is a ' + `${age}` + ' years old ' + `${job}` + ' is he married ' + `${ismarried}`);
+
+// let lastName = prompt('what is your last name')
+// console.log(firstName + ' ' + lastName)
+
+
+
+//BASIC OPERATORS
