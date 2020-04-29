@@ -36,3 +36,38 @@
 
 
 //BASIC OPERATORS
+
+
+
+
+//STRING
+// const name = 'joha';
+// const age = 30;
+
+// //CONCATENATE
+// const hello = `my name is ${name} and i am ${age} years`;
+// console.log(hello)
+// console.log(hello.length)
+// console.log(hello.toLocaleLowerCase())
+// console.log(hello.toUpperCase())
+// console.log(hello.substring(0, 27).toUpperCase())
+
+// const s = 'obi, jan, ahmad';
+// console.log(s.split(', '))
+
+
+
+//ARRAYS it is a variable that holds multiple values
+const a = ['banana','apple','pear','orange'];
+//to add it at the end of array
+a.push('strawberries')
+
+//to add at the begining
+a.unshift('berry')
+
+//to remove from the end
+a.pop()
+
+//to get the array value index of
+console.log(a.indexOf('apple'))
+console.log(a)
