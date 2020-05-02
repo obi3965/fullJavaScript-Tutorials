@@ -1,0 +1,13 @@
+#btn{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.colorBtn{
+      background-color: brown;
+      color: white;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding: 10px 15px;
+      margin: 40px 0;
+}

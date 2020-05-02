@@ -1,0 +1,31 @@
+body{
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(30, 172, 194);
+      color: black;
+      font-weight: 400;
+}
+.container{
+      text-align: center;
+      padding: 2rem;
+      border-radius: 5px;
+      background-color: white;
+      flex: 0 0 80%;
+}
+#quoteBtn{
+      border: none;
+      color: white;
+      background-color: cadetblue;
+      font-size: 1.3rem;
+      padding: 12px 16px;
+      border-radius: 7px;
+      cursor: pointer;
+}
+blockquote{
+      background-color: rgb(240, 232, 232);
+      border-left: 8px solid rgb(36, 164, 16);
+      margin: 1.5rem;
+      padding: 0.5rem;
+}
