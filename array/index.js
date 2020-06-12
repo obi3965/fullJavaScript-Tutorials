@@ -32,11 +32,12 @@ console.log(number);
 
 //to get a single object
 colors = [
-  {id: 1, name: "obi", age: 30, },
-   { id: 2, name: "obi", age: 31,},
-   { id: 3, name: "obi", age: 35,},
    { id: 4, name: "obi", age: 45,},
    { id: 5, name: "obi", age: 55,},
+   {id: 1, name: "obi", age: 30, },
+   { id: 2, name: "obi", age: 31,},
+   { id: 3, name: "obi", age: 35,},
+   
 ];
 
     // for (let i = 0; i < colors.length; i++) {
@@ -44,9 +45,24 @@ colors = [
     //     console.log(colors[i]);
     // }
     // }
-    let colorFilter = colors.filter(function(data){
-      if(data.age >= 35 && data.age <= 30){
-          return true
-      }
-      console.log(colorFilter)
-    }) 
+    //Filter Methods
+        //   let colorFilter = colors.filter(function(data){
+        //     if(data.age >= 30 && data.age <= 40){
+        //         return true
+        //     }
+          
+        //   }) 
+        // console.table(colorFilter)
+
+        //SORT METHODS
+        let colorFilter = colors.sort(function(a, b){
+              if(a.age > b.age ){
+                   return 1
+               }else{
+                 return -1
+               }
+            
+             }) 
+          console.table(colorFilter)
+        let colorFilter = colors.sort((a, b)=> a.age > b.age ? 1 : -1)
+        console.table(colorFilter)
